@@ -1,3 +1,5 @@
+**Special thanks and specific appreciation to [Nuno Maduro](https://x.com/enunomaduro)**
+
 - Inertia & Vue (this project) version: **[github.com/grnspc/laravel-starter-kit-inertia-vue](https://github.com/grnspc/laravel-starter-kit-inertia-vue)**
 - Inertia & React version: **[github.com/nunomaduro/laravel-starter-kit-inertia-react](https://github.com/nunomaduro/laravel-starter-kit-inertia-react)**
 - Blade version: **[github.com/nunomaduro/laravel-starter-kit](https://github.com/nunomaduro/laravel-starter-kit)**
@@ -90,7 +92,4 @@ You should see 100% test coverage and all quality checks passing.
 - `composer update:requirements` - Updates all PHP and NPM dependencies to latest versions
 
 ## License
-
-**Special thanks to [Nuno Maduro](https://x.com/enunomaduro)**
-
 **Laravel Starter Kit Inertia Vue** was created by **[GrnSpc](https://x.com/GrnspcDev)** under the **[MIT license](https://opensource.org/licenses/MIT)**.
