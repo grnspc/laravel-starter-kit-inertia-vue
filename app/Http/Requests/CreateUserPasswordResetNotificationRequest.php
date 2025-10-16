@@ -6,7 +6,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-final class CreateUserEmailResetNotificationRequest extends FormRequest
+final class CreateUserPasswordResetNotificationRequest extends FormRequest
 {
     /**
      * @return array<string, array<int, string>>

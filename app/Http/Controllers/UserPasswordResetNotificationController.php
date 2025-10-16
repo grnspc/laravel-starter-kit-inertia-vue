@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
-use App\Actions\CreateUserEmailResetNotification;
-use App\Http\Requests\CreateUserEmailResetNotificationRequest;
+use App\Actions\CreateUserPasswordResetNotification;
+use App\Http\Requests\CreateUserPasswordResetNotificationRequest;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use Inertia\Response;
 
-final readonly class UserEmailResetNotificationController
+final readonly class UserPasswordResetNotificationController
 {
     public function create(Request $request): Response
     {
@@ -21,8 +21,8 @@ final readonly class UserEmailResetNotificationController
     }
 
     public function store(
-        CreateUserEmailResetNotificationRequest $request,
-        CreateUserEmailResetNotification $action
+        CreateUserPasswordResetNotificationRequest $request,
+        CreateUserPasswordResetNotification $action
     ): RedirectResponse {
         $action->handle(['email' => $request->string('email')->value()]);
 
